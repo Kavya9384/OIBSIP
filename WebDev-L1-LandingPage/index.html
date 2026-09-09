@@ -1,81 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Brew & Bloom</title>
+    <title>Brew & Bloom | Fresh Coffee & Warm Moments</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <h2>Brew & Bloom</h2>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
 
-        <div>
+        <div class="logo">
+            Brew & Bloom
+        </div>
+
+        <div class="nav-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#menu">Menu</a>
             <a href="#contact">Contact</a>
         </div>
+
     </nav>
 
+
+    <!-- Hero Section -->
     <section id="home" class="hero">
-        <h1>Fresh Coffee, Warm Moments</h1>
-        <p>Enjoy freshly brewed coffee and delicious treats in a cozy atmosphere.</p>
-        <a href="#menu" class="button">Explore Our Menu</a>
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO BREW & BLOOM</p>
+
+            <h1>
+                Fresh Coffee,<br>
+                Warm Moments
+            </h1>
+
+            <p class="hero-text">
+                Enjoy freshly brewed coffee, delicious treats,
+                and peaceful moments in our cozy little café.
+            </p>
+
+            <a href="#menu" class="button">
+                Explore Our Menu
+            </a>
+
+        </div>
+
     </section>
 
-    <section id="about" class="about">
-        <h2>Why Choose Brew & Bloom?</h2>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+        <div class="section-heading">
+            <p>WHY CHOOSE US?</p>
+            <h2>Made With Love, Served With Care</h2>
+        </div>
 
         <div class="cards">
+
             <div class="card">
+
+                <div class="icon">☕</div>
+
                 <h3>Fresh Coffee</h3>
-                <p>Our coffee is freshly brewed using carefully selected beans.</p>
+
+                <p>
+                    Our coffee is freshly brewed using carefully
+                    selected beans to give you a rich and delicious taste.
+                </p>
+
             </div>
 
+
             <div class="card">
+
+                <div class="icon">🌿</div>
+
                 <h3>Cozy Space</h3>
-                <p>A comfortable place to relax, work, or spend time with friends.</p>
+
+                <p>
+                    Relax, work, read a book, or spend quality time
+                    with your friends in our comfortable café.
+                </p>
+
             </div>
 
+
             <div class="card">
+
+                <div class="icon">🍰</div>
+
                 <h3>Delicious Treats</h3>
-                <p>Enjoy cakes, pastries, and snacks with your favourite coffee.</p>
+
+                <p>
+                    Enjoy freshly prepared cakes, pastries, snacks,
+                    and other delicious treats with your favourite coffee.
+                </p>
+
             </div>
+
         </div>
+
     </section>
 
-    <section id="menu" class="menu">
-        <h2>Our Popular Menu</h2>
 
-        <div class="cards">
-            <div class="card">
-                <h3>Cappuccino</h3>
-                <p>Rich espresso with smooth steamed milk.</p>
-            </div>
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
 
-            <div class="card">
-                <h3>Cold Coffee</h3>
-                <p>A refreshing chilled coffee for a perfect break.</p>
-            </div>
-
-            <div class="card">
-                <h3>Chocolate Cake</h3>
-                <p>Soft and delicious chocolate cake.</p>
-            </div>
+        <div class="section-heading">
+            <p>OUR SPECIALS</p>
+            <h2>Popular From Our Menu</h2>
         </div>
+
+
+        <div class="menu-grid">
+
+            <!-- Menu Item 1 -->
+            <div class="menu-card">
+
+                <div class="menu-icon">
+                    ☕
+                </div>
+
+                <div class="menu-content">
+
+                    <h3>Cappuccino</h3>
+
+                    <p>
+                        Rich espresso combined with smooth
+                        steamed milk and creamy foam.
+                    </p>
+
+                    <span class="price">₹160</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Menu Item 2 -->
+            <div class="menu-card">
+
+                <div class="menu-icon">
+                    🧋
+                </div>
+
+                <div class="menu-content">
+
+                    <h3>Cold Coffee</h3>
+
+                    <p>
+                        A refreshing chilled coffee perfect
+                        for a relaxing afternoon break.
+                    </p>
+
+                    <span class="price">₹140</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Menu Item 3 -->
+            <div class="menu-card">
+
+                <div class="menu-icon">
+                    🍵
+                </div>
+
+                <div class="menu-content">
+
+                    <h3>Green Tea</h3>
+
+                    <p>
+                        A refreshing and soothing tea made
+                        with carefully selected green tea leaves.
+                    </p>
+
+                    <span class="price">₹100</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Menu Item 4 -->
+            <div class="menu-card">
+
+                <div class="menu-icon">
+                    🍰
+                </div>
+
+                <div class="menu-content">
+
+                    <h3>Chocolate Cake</h3>
+
+                    <p>
+                        Soft, moist, and delicious chocolate cake
+                        made for every sweet craving.
+                    </p>
+
+                    <span class="price">₹180</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Menu Item 5 -->
+            <div class="menu-card">
+
+                <div class="menu-icon">
+                    🥐
+                </div>
+
+                <div class="menu-content">
+
+                    <h3>Butter Croissant</h3>
+
+                    <p>
+                        Light and flaky pastry with a rich
+                        buttery flavour.
+                    </p>
+
+                    <span class="price">₹120</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Menu Item 6 -->
+            <div class="menu-card">
+
+                <div class="menu-icon">
+                    🍪
+                </div>
+
+                <div class="menu-content">
+
+                    <h3>Chocolate Cookies</h3>
+
+                    <p>
+                        Crunchy, delicious cookies filled with
+                        irresistible chocolate chips.
+                    </p>
+
+                    <span class="price">₹90</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
+
+    <!-- Call To Action Section -->
+    <section class="cta">
+
+        <div class="cta-content">
+
+            <h2>Your Perfect Coffee Moment Awaits</h2>
+
+            <p>
+                Take a break from your busy day and enjoy
+                something special at Brew & Bloom.
+            </p>
+
+            <a href="#contact" class="button">
+                Visit Us
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact / Footer -->
     <footer id="contact">
-        <h3>Brew & Bloom</h3>
-        <p>Email: hello@brewandbloom.com</p>
-        <p>Instagram | Facebook | LinkedIn</p>
-        <p>© 2026 Brew & Bloom. All rights reserved.</p>
+
+        <div class="footer-content">
+
+            <div class="footer-about">
+
+                <h2>Brew & Bloom</h2>
+
+                <p>
+                    Fresh coffee, delicious treats,
+                    and warm moments every day.
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h3>Contact Us</h3>
+
+                <p>
+                    📧
+                    <a href="mailto:hello@brewandbloom.com">
+                        hello@brewandbloom.com
+                    </a>
+                </p>
+
+                <p>
+                    📞
+                    <a href="tel:+919876543210">
+                        +91 98765 43210
+                    </a>
+                </p>
+
+                <p>
+                    📍 Palani, Tamil Nadu
+                </p>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-links">
+
+                    <a href="#" target="_blank">
+                        Instagram
+                    </a>
+
+                    <a href="#" target="_blank">
+                        Facebook
+                    </a>
+
+                    <a href="#" target="_blank">
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Brew & Bloom. All rights reserved.
+            </p>
+
+        </div>
+
     </footer>
 
+
 </body>
+
 </html>
